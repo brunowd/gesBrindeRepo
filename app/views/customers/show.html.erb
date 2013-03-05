@@ -50,11 +50,13 @@
   <%= @customer.phone %>
 </p>
 
-<h2>Contactos</h2>
+<h2>Lista de pessoas associadas à empresa:</h2>
 <%= render @customer.users %>
 
-<h2>Adicionar novo contacto:</h2>
-<%= render "users/form" %>
-
+<button onclick="expandDiv('adicionarContacto');">Adicionar contacto</button>
+<div id="adicionarContacto" style="display: none">
+  <h2>Adicionar novo contacto:</h2>
+  <%= render "users/form" %>
+</div>
 <%= link_to 'Edit', edit_customer_path(@customer) %> |
 <%= link_to 'Back', customers_path %>

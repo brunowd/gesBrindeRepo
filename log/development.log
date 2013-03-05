@@ -649,3 +649,1047 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 00:55:24 +0000
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 19:10:18 +0000
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 98ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:18 +0000
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:18 +0000
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:18 +0000
+Served asset /customers.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:18 +0000
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:18 +0000
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:18 +0000
+Served asset /jquery.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:19 +0000
+Served asset /customers.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:19 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:19 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:19 +0000
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:19 +0000
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/customers" for 127.0.0.1 at 2013-03-05 19:10:27 +0000
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 76ms (Views: 10.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:27 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:27 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:27 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:27 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:27 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:27 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:27 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:27 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:27 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:27 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:28 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/customers/new" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Processing by CustomersController#new as HTML
+  Rendered customers/_form.html.erb (14.5ms)
+  Rendered customers/new.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 46ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:10:30 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/customers" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Processing by CustomersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KkFqilSBgtB1/kcBGr/j2SY4ZFARnaEKIbVOeVR7UBM=", "customer"=>{"name"=>"Cliente 1", "customer_type"=>"Empresa", "nif"=>"220123432", "street_addr"=>"Rua Quinta da Portela, Lote 10.3 4º Esq", "cp_4d"=>"3030", "cp_3d"=>"509", "city"=>"Coimbra", "website"=>"", "email"=>"marconunoneves@gmail.com", "phone"=>"968667173"}, "commit"=>"Create Customer"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (121.3ms)[0m  [1mINSERT INTO "customers" ("city", "cp_3d", "cp_4d", "created_at", "customer_type", "email", "name", "nif", "phone", "street_addr", "updated_at", "website") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["city", "Coimbra"], ["cp_3d", 509], ["cp_4d", 3030], ["created_at", Tue, 05 Mar 2013 19:11:08 UTC +00:00], ["customer_type", "Empresa"], ["email", "marconunoneves@gmail.com"], ["name", "Cliente 1"], ["nif", 220123432], ["phone", 968667173], ["street_addr", "Rua Quinta da Portela, Lote 10.3 4º Esq"], ["updated_at", Tue, 05 Mar 2013 19:11:08 UTC +00:00], ["website", ""]]
+  [1m[35m (2.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/customers/3
+Completed 302 Found in 130ms (ActiveRecord: 123.5ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCustomer Load (0.3ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."customer_id" = 3
+  Rendered collection (0.0ms)
+  Rendered users/_form.html.erb (28.4ms)
+  Rendered customers/show.html.erb within layouts/application (69.5ms)
+Completed 200 OK in 81ms (Views: 77.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:11:08 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."customer_id" = 3
+  Rendered collection (0.0ms)
+  Rendered users/_form.html.erb (4.8ms)
+  Rendered customers/show.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:12:09 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."customer_id" = 3
+  Rendered collection (0.0ms)
+  Rendered users/_form.html.erb (3.5ms)
+  Rendered customers/show.html.erb within layouts/application (9.3ms)
+Compiled global.js  (0ms)  (pid 30296)
+Compiled application.js  (82ms)  (pid 30296)
+Completed 200 OK in 242ms (Views: 239.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Served asset /global.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:37:35 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:37:36 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."customer_id" = 3
+  Rendered collection (0.0ms)
+  Rendered users/_form.html.erb (3.4ms)
+  Rendered customers/show.html.erb within layouts/application (6.9ms)
+Compiled global.js  (0ms)  (pid 30296)
+Compiled application.js  (4ms)  (pid 30296)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /global.js - 200 OK (4ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:38:48 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 19:39:20 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."customer_id" = 3
+  Rendered collection (0.0ms)
+  Rendered users/_form.html.erb (2.8ms)
+  Rendered customers/show.html.erb within layouts/application (5.6ms)
+Compiled global.js  (0ms)  (pid 30296)
+Compiled application.js  (4ms)  (pid 30296)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:39:20 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:39:20 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:39:20 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:39:20 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:39:20 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:39:20 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:39:20 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:39:21 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 19:39:21 +0000
+Served asset /global.js - 200 OK (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:39:21 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:39:21 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:39:21 +0000
+Served asset /application.js - 304 Not Modified (71ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."customer_id" = 3
+  Rendered collection (0.0ms)
+  Rendered users/_form.html.erb (3.3ms)
+  Rendered customers/show.html.erb within layouts/application (6.4ms)
+Compiled global.js  (0ms)  (pid 30296)
+Compiled application.js  (4ms)  (pid 30296)
+Completed 200 OK in 47ms (Views: 45.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /global.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:40:14 +0000
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 19:49:15 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."customer_id" = 3
+  Rendered collection (0.0ms)
+  Rendered users/_form.html.erb (2.7ms)
+  Rendered customers/show.html.erb within layouts/application (5.7ms)
+Compiled global.js  (0ms)  (pid 30296)
+Compiled application.js  (47ms)  (pid 30296)
+Completed 200 OK in 166ms (Views: 164.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:49:15 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:49:16 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:16 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:49:16 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:49:16 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:49:16 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:16 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:16 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:16 +0000
+Served asset /global.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:16 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:16 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:16 +0000
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 19:49:53 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."customer_id" = 3
+  Rendered collection (0.0ms)
+  Rendered users/_form.html.erb (2.5ms)
+  Rendered customers/show.html.erb within layouts/application (5.2ms)
+Compiled global.js  (0ms)  (pid 30296)
+Compiled application.js  (5ms)  (pid 30296)
+Completed 200 OK in 130ms (Views: 128.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /global.js - 200 OK (3ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:49:54 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."customer_id" = 3
+  Rendered collection (0.0ms)
+  Rendered users/_form.html.erb (2.9ms)
+  Rendered customers/show.html.erb within layouts/application (5.9ms)
+Compiled global.js  (0ms)  (pid 30296)
+Compiled application.js  (5ms)  (pid 30296)
+Completed 200 OK in 88ms (Views: 86.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /global.js - 200 OK (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:53:34 +0000
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 19:54:06 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."customer_id" = 3
+  Rendered collection (0.0ms)
+  Rendered users/_form.html.erb (2.8ms)
+  Rendered customers/show.html.erb within layouts/application (5.8ms)
+Compiled global.js  (0ms)  (pid 30296)
+Compiled application.js  (5ms)  (pid 30296)
+Completed 200 OK in 85ms (Views: 83.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /global.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:54:07 +0000
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started POST "/customers/3/users" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KkFqilSBgtB1/kcBGr/j2SY4ZFARnaEKIbVOeVR7UBM=", "user"=>{"name"=>"Pessoa 1", "email"=>"email_da_pessoa1@teste.com"}, "commit"=>"Create User", "customer_id"=>"3"}
+  [1m[36mCustomer Load (0.3ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "users" ("city", "cp_3d", "cp_4d", "created_at", "customer_id", "date_of_birth", "email", "email_state", "gender", "name", "password", "phone", "stret_addr", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["city", nil], ["cp_3d", nil], ["cp_4d", nil], ["created_at", Tue, 05 Mar 2013 19:55:34 UTC +00:00], ["customer_id", 3], ["date_of_birth", nil], ["email", "email_da_pessoa1@teste.com"], ["email_state", nil], ["gender", nil], ["name", "Pessoa 1"], ["password", nil], ["phone", nil], ["stret_addr", nil], ["updated_at", Tue, 05 Mar 2013 19:55:34 UTC +00:00]]
+  [1m[35m (2.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/customers/3
+Completed 302 Found in 11ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."customer_id" = 3
+  Rendered users/_user.html.erb (0.9ms)
+  Rendered users/_form.html.erb (5.2ms)
+  Rendered customers/show.html.erb within layouts/application (37.9ms)
+Compiled global.js  (0ms)  (pid 30296)
+Compiled application.js  (5ms)  (pid 30296)
+Completed 200 OK in 124ms (Views: 122.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /global.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 19:55:34 +0000
+Served asset /application.js - 304 Not Modified (10ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (13.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateCustomers (20130305002818)
+Migrating to CreateUsers (20130305003020)
+Migrating to CreateOrders (20130305200115)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "date_created" date, "description" text, "date_due" date, "customer_id" integer, "persons_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mCREATE INDEX "index_orders_on_customer_id" ON "orders" ("customer_id")[0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_orders_on_persons_id" ON "orders" ("persons_id")
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130305200115')[0m
+  [1m[35m (2.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/customers" for 127.0.0.1 at 2013-03-05 20:16:52 +0000
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1mSELECT "customers".* FROM "customers" [0m
+  Rendered customers/index.html.erb within layouts/application (4.1ms)
+Compiled orders.css  (19ms)  (pid 30296)
+Compiled application.css  (35ms)  (pid 30296)
+Compiled orders.js  (295ms)  (pid 30296)
+Compiled application.js  (315ms)  (pid 30296)
+Completed 200 OK in 700ms (Views: 680.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /global.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:53 +0000
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/customers/3" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mCustomer Load (0.5ms)[0m  SELECT "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."customer_id" = 3[0m
+  Rendered users/_user.html.erb (0.1ms)
+  Rendered users/_form.html.erb (5.3ms)
+  Rendered customers/show.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 55ms (Views: 51.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /global.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 20:16:56 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/customers" for 127.0.0.1 at 2013-03-05 20:16:59 +0000
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (0.3ms)[0m  SELECT "customers".* FROM "customers" 
+  Rendered customers/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:59 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.css?body=1" for 127.0.0.1 at 2013-03-05 20:16:59 +0000
+Served asset /customers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/customers.js?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /customers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/global.js?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /global.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-05 20:17:00 +0000
+Served asset /users.js - 304 Not Modified (0ms)

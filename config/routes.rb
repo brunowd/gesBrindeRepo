@@ -3,8 +3,12 @@ GesBrinde::Application.routes.draw do
 
   resources :customers do
     resources :users
+    resources :orders
   end
 
+  resources :users do
+    resources :orders
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

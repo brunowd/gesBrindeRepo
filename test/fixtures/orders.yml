@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date_created: 2013-03-05
+  description: MyText
+  date_due: 2013-03-05
+  customer: 
+  persons: 
+
+two:
+  date_created: 2013-03-05
+  description: MyText
+  date_due: 2013-03-05
+  customer: 
+  persons: 

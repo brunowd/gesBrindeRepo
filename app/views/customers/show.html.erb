@@ -1,0 +1,60 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @customer.name %>
+</p>
+
+<p>
+  <b>Customer type:</b>
+  <%= @customer.customer_type %>
+</p>
+
+<p>
+  <b>Nif:</b>
+  <%= @customer.nif %>
+</p>
+
+<p>
+  <b>Street addr:</b>
+  <%= @customer.street_addr %>
+</p>
+
+<p>
+  <b>Cp 4d:</b>
+  <%= @customer.cp_4d %>
+</p>
+
+<p>
+  <b>Cp 3d:</b>
+  <%= @customer.cp_3d %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @customer.city %>
+</p>
+
+<p>
+  <b>Website:</b>
+  <%= @customer.website %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @customer.email %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @customer.phone %>
+</p>
+
+<h2>Contactos</h2>
+<%= render @customer.users %>
+
+<h2>Adicionar novo contacto:</h2>
+<%= render "users/form" %>
+
+<%= link_to 'Edit', edit_customer_path(@customer) %> |
+<%= link_to 'Back', customers_path %>
